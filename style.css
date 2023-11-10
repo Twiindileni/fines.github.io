@@ -2,6 +2,11 @@ body {
     font-family: Arial, sans-serif;
     background-color: #007BFF; /* Blue background color */
     color: rgb(0, 0, 0);
+    margin: 20;
+    display: center;
+    align-items: center;
+    justify-content: center;
+    height: 50vh; 
 }
 
 
