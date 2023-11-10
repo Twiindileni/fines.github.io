@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function () {
         // In a real application, you would make an AJAX request to the server for authentication
         // For this example, we'll use an array to store user credentials and redirect URLs
         const users = [
-            { idNumber: "88032500588", password: "1988", redirectUrl: "fines.html" },
-            { idNumber: "12345", password: "123", redirectUrl: "12345fines.html" },
+            { idNumber: "88032500588", password: "1988", redirectUrl: "8803fines.html" },
+            { idNumber: "12345", password: "123", redirectUrl: "12345.html" },
             { idNumber: "1234", password: "1234", redirectUrl: "12345fines.html" },
             // Add more users as needed with their corresponding redirect URLs
         ];
