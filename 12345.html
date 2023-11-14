@@ -1,30 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="stylesuse.css">
 </head>
 <body>
     <div class="container">
-        <h2>Card Payment Form</h2>
-        <form id="payment-form">
-            <div class="form-group">
-                <label for="card-holder">Card Holder Name</label>
-                <input type="text" id="card-holder" required>
-            </div>
-            <div class="form-group">
-                <label for="card-number">Card Number</label>
-                <input type="text" id="card-number" required>
-            </div>
-            <div class="form-group">
-                <label for="card-expiry">Card Expiry (MM/YY)</label>
-                <input type="text" id="card-expiry" required>
-            </div>
-            <div class="form-group">
-                <label for="card-cvv">CVV</label>
-                <input type="text" id="card-cvv" required>
-            </div>
-            <button type="submit" id="pay-button">Pay</button>
-        </form>
+        <div class="user-profile">
+            <img src="527489.png" alt="User Icon">
+            <h2 id="user-name">Shilongo Moses</h2>
+            <p>ID Number: <span id="user-id">7834567890</span></p>
+        </div>
+        <h3>Traffic Fines</h3>
+        <ul id="traffic-fines">
+            <li>
+                <h4>No License</h4>
+                <p>Driving motor vehicle on a public road without a driving License.</p>
+                <p>Amount: N$1000</p>
+                <button class="pay-button" data-amount="100">Pay</button>
+            </li>
+            <li>
+                <h4>Red Light Violation</h4>
+                <p>Failed to stop at a red traffic light.</p>
+                <p>Amount: N$1500</p>
+                <button class="pay-button" data-amount="150">Pay</button>
+            </li>
+            <!-- Add more fines as needed -->
+        </ul>
+
+        <!-- Add Payment History Button and Redirect -->
+        <button id="payment-history-button" onclick="redirectToPaymentHistory()">Payment History</button>
     </div>
     <script src="script1.js"></script>
 </body>

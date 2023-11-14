@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
     payButtons.forEach((button) => {
         button.addEventListener("click", function () {
             const amount = this.getAttribute("data-amount");
-                window.location.href = 'card.html';
+                window.location.href = 'EnterAmount.html';
             }, 2000);
         });
     });
