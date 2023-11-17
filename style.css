@@ -63,3 +63,14 @@ button {
 button:hover {
     background-color: #0056b3;
 }
+
+.card-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.card-images img {
+    height: 30px; /* Adjust the height as needed */
+    margin-right: 10px; /* Adjust the spacing between images as needed */
+}
