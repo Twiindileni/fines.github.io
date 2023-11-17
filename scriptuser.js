@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
             { idNumber: "88032500588", password: "1988", redirectUrl: "8803fines.html" },
             { idNumber: "12345", password: "123", redirectUrl: "12345.html" },
             { idNumber: "1234", password: "1234", redirectUrl: "12345fines.html" },
+            { idNumber: "1234", password: "123", redirectUrl: "Saarti.html" },
             // Add more users as needed with their corresponding redirect URLs
         ];
 
